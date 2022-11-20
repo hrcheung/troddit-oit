@@ -53,6 +53,15 @@ yarn dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+If "package subpath is not defined by exports in package.json", try uninstall node and reinstall using:
+node -v
+npm uninstall node
+sudo npm install -g n
+sudo n 16.8.0
+
+and then
+npm run dev
+
 To contribute create a branch and submit a PR!
 
 
