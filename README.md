@@ -47,6 +47,7 @@ Shown in single column mode with wide UI disabled. Sort options menu is open.
 Clone the repo and install all packages with npm or yarn. Then to run development server: 
 
 ```sh
+npm install #install packages
 npm run dev
 # or
 yarn dev
